@@ -7,6 +7,7 @@ DHT my_sensor(5, DHT11);
 
 void setup() {
   // put your setup code here, to run once:
+  //Check
   pinMode(2, OUTPUT);
   Serial.begin(9600);
   my_sensor.begin();
